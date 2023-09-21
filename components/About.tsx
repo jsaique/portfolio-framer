@@ -17,15 +17,15 @@ export default function About() {
         <span className="font-medium">Computer Technology</span> and working as
         an IT professional, I decided to pursue my passion for programming. I
         enrolled in CS50's Introduction to Computer Science and learned{" "}
-        <span className="font-medium">C, Phyton, JavaScript, SQL</span>.{" "}
+        <span className="font-medium">C, Python, JavaScript, SQL</span>.{" "}
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
         feeling of finally figuring out a solution to a problem. My core stack
-        is <span className="font-medium">React, Next.js, Phyton and SQL</span>.
+        is <span className="font-medium">React, Next.js, Python and SQL</span>.
         I am also familiar with TypeScript. I am always looking to learn new
         technologies. I am currently looking for a{" "}
         <span className="font-medium">full-time position</span> as a software
-        developer.
+        engineer.
       </p>
 
       <p>

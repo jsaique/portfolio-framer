@@ -24,8 +24,6 @@ export default function Intro() {
             <Image
               src={avatar}
               alt="John avatar"
-              width="192"
-              height="192"
               quality="95"
               priority={true}
               className="h-24 w-24 rounded-full object-cover bg-gradient-to-b from-slate-500 border-[0.35rem] border-white shadow-xl"
@@ -56,7 +54,8 @@ export default function Intro() {
         <span className="font-bold">software engineer</span> with{" "}
         <span className="font-bold">1 year</span> of experience. I enjoy
         building <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">React (Next.js)</span>.
+        <span className="underline">React (Next.js)</span> and{" "}
+        <span className="underline">Python</span>.
       </motion.h1>
 
       <motion.div

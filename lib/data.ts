@@ -2,8 +2,10 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
+import thougthy from "@/public/project1.png";
+import qr from "@/public/project2.png";
+import portfolio from "@/public/project3.png";
+import cs50 from "@/public/project4.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
@@ -35,7 +37,7 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Harvard University: CS50's Introduction to Computer Science",
+    title: "Harvard University: cs50's Introduction to Computer Science",
     location: "Remote (edX)",
     description:
       "I completed the course An introduction to the intellectual enterprises of computer science and the art of programming.",
@@ -60,25 +62,37 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
-    description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
-  },
-  {
-    title: "rmtDev",
-    description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
-  },
-  {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+    title: "Mutual AI (MAI)",
+    description: "Comming Soon...",
+    tags: ["React", "Next.js", "SQL", "Python", "Framer"],
     imageUrl: wordanalyticsImg,
+  },
+  {
+    title: "CS50 Final Project",
+    description:
+      "This is my CS50's final project that i submitted to get my certification, it a basic email web app that can send, recieve and delete emails.",
+    tags: ["Python", "Flask", "HTML", "CSS"],
+    imageUrl: cs50,
+  },
+  {
+    title: "Thoughty",
+    description:
+      "I created a web application called Thoughty were users can share their ideas with others.",
+    tags: ["React", "Next.js", "Next Auth", "Tailwind", "Firebase"],
+    imageUrl: thougthy,
+  },
+  {
+    title: "QR Code Generator",
+    description: "I created a web application that generates a QR Code.",
+    tags: ["React", "React qr code", "Next.js", "Tailwind"],
+    imageUrl: qr,
+  },
+  {
+    title: "Portfolio V.1",
+    description:
+      "I created my first portfolio to apply all the knowledge i learned from the courses i took.",
+    tags: ["React", "Next.js", "Tailwind"],
+    imageUrl: portfolio,
   },
 ] as const;
 
