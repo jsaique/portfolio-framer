@@ -1,15 +1,31 @@
 "use client";
-import { motion } from "framer-motion";
 
+import { motion } from "framer-motion";
 import SectionHeading from "./Section-heading";
+import { useInView } from "react-intersection-observer";
+import { useActiveSectionContext } from "@/context/active-session-context";
+import { useEffect } from "react";
 
 export default function About() {
+  const { ref, inView } = useInView({
+    threshold: 0.75,
+  });
+  const { setActiveSection } = useActiveSectionContext();
+
+  useEffect(() => {
+    if (inView) {
+      setActiveSection("About");
+    }
+  }, [inView, setActiveSection]);
+
   return (
     <motion.section
-      className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40"
+      className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
+      id="about"
+      ref={ref}
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
@@ -33,7 +49,7 @@ export default function About() {
         video games, watching movies, and playing with my dog. I also enjoy{" "}
         <span className="font-medium">learning new things</span>. I am currently
         learning about{" "}
-        <span className="font-medium">Artificial Intelligence with Phyton</span>
+        <span className="font-medium">Artificial Intelligence with Python</span>
         . I'm also learning how to play the piano.
       </p>
     </motion.section>
