@@ -1,4 +1,4 @@
-import React from "react";
+import React, { createElement } from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
@@ -37,26 +37,26 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Harvard University: cs50's Introduction to Computer Science",
-    location: "Remote (edX)",
-    description:
-      "I completed the course An introduction to the intellectual enterprises of computer science and the art of programming.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2023",
-  },
-  {
     title: "JavaScript Mastery Course",
-    location: "Remote (Udemy)",
+    location: "Remote(Udemy)",
     description: "I completed the JavaScript Mastery course from Udemy",
-    icon: React.createElement(CgWorkAlt),
+    icon: createElement(LuGraduationCap),
     date: "2022",
   },
   {
     title: "HTML and CSS Mastery Course",
-    location: "Remote",
+    location: "Remote(Udemy)",
     description: "Completed the Udemy course for HTML and CSS",
-    icon: React.createElement(FaReact),
+    icon: createElement(LuGraduationCap),
     date: "2022",
+  },
+  {
+    title: "Harvard University: CS50's Introduction to Computer Science",
+    location: "Remote(edX)",
+    description:
+      "I completed the course An introduction to the intellectual enterprises of computer science and the art of programming.",
+    icon: createElement(LuGraduationCap),
+    date: "2023",
   },
 ] as const;
 
