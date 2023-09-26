@@ -87,7 +87,7 @@ export default function Intro() {
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 duration-300" />
         </Link>
         <a
-          className="group flex items-center gap-2 bg-white px-7 py-3 rounded-full outline-none focus:scale-110 hover:scale-110  active:scale-105 duration-300 cursor-pointer borderBlack"
+          className="group flex items-center gap-2 bg-white px-7 py-3 rounded-full outline-none focus:scale-110 hover:scale-110  active:scale-105 duration-300 cursor-pointer borderBlack dark:bg-white/10"
           href="/Resume.pdf"
           download
         >
@@ -95,7 +95,7 @@ export default function Intro() {
           <HiDownload className="opacity-70 group-hover:translate-y-1 duration-300" />
         </a>
         <a
-          className="flex items-center gap-2 bg-white p-4 text-gray-700 rounded-full outline-none focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 duration-300 cursor-pointer borderBlack"
+          className="flex items-center gap-2 bg-white p-4 text-gray-700 rounded-full outline-none focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 duration-300 cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
           href="https://www.linkedin.com/in/john-saique-a20797144/"
           target="_blank"
           rel="noreferrer"
@@ -103,7 +103,7 @@ export default function Intro() {
           <BsLinkedin />
         </a>
         <a
-          className="flex items-center gap-2 bg-white p-4 text-gray-700 text-[1.35rem] rounded-full outline-none focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 duration-300 cursor-pointer borderBlack"
+          className="flex items-center gap-2 bg-white p-4 text-gray-700 text-[1.35rem] rounded-full outline-none focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 duration-300 cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
           href="https://github.com/jsaique"
           target="_blank"
           rel="noreferrer"
