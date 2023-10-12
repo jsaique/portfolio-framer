@@ -1,21 +1,21 @@
 "use client";
 
+import { Fragment } from "react";
 import SectionHeading from "./Section-heading";
 import { projectsData } from "@/lib/data";
-import { Fragment } from "react";
-import ProjectCard from "./Project-card";
+import Project from "./Project-card";
 import { useSectionInView } from "@/lib/hooks";
 
 export default function Projects() {
-  const { ref } = useSectionInView("Projects", 0.25);
+  const { ref } = useSectionInView("Projects", 0.5);
 
   return (
-    <section className="scroll-mt-28 mb-28" id="projects" ref={ref}>
-      <SectionHeading>My Projects</SectionHeading>
+    <section ref={ref} id="projects" className="scroll-mt-28 mb-28">
+      <SectionHeading>My projects</SectionHeading>
       <div>
         {projectsData.map((project, index) => (
           <Fragment key={index}>
-            <ProjectCard {...project} />
+            <Project {...project} />
           </Fragment>
         ))}
       </div>

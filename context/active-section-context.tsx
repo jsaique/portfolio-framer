@@ -1,35 +1,28 @@
 "use client";
 
-import {
-  Dispatch,
-  SetStateAction,
-  createContext,
-  useContext,
-  useState,
-} from "react";
 import type { SectionName } from "@/lib/types";
+import { useState, createContext, useContext, ReactNode, Dispatch } from "react";
 
 type ActiveSectionContextProviderProps = {
-  children: React.ReactNode;
+  children: ReactNode;
 };
 
 type ActiveSectionContextType = {
   activeSection: SectionName;
-  setActiveSection: Dispatch<SetStateAction<SectionName>>;
+  setActiveSection: Dispatch<React.SetStateAction<SectionName>>;
   timeOfLastClick: number;
-  setTimeOfLastClick: Dispatch<SetStateAction<number>>;
+  setTimeOfLastClick: Dispatch<React.SetStateAction<number>>;
 };
 
-//Passing to children
 export const ActiveSectionContext =
   createContext<ActiveSectionContextType | null>(null);
 
-//This component will keep track of the state
 export default function ActiveSectionContextProvider({
   children,
 }: ActiveSectionContextProviderProps) {
   const [activeSection, setActiveSection] = useState<SectionName>("Home");
-  const [timeOfLastClick, setTimeOfLastClick] = useState(0); // Tracking the time of last click to disable the scroll observer temporarily when user clicks on the link
+  const [timeOfLastClick, setTimeOfLastClick] = useState(0); // we need to keep track of this to disable the observer temporarily when user clicks on a link
+
   return (
     <ActiveSectionContext.Provider
       value={{
@@ -44,7 +37,6 @@ export default function ActiveSectionContextProvider({
   );
 }
 
-//Custom hook
 export function useActiveSectionContext() {
   const context = useContext(ActiveSectionContext);
 

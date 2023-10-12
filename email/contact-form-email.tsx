@@ -25,18 +25,20 @@ export default function ContactFormEmail({
     <Html>
       <Head />
       <Preview>New message from your portfolio site</Preview>
-      <Body className="bg-gray-100 text-black">
-        <Container>
-          <Section className="bg-white borderBlack my-10 px-10 py-4 rounded-md">
-            <Heading className="leading-tight">
-              You received the following message from the contact form
-            </Heading>
-            <Text>{message}</Text>
-            <Hr />
-            <Text>The senders email is: {senderEmail}</Text>
-          </Section>
-        </Container>
-      </Body>
+      <Tailwind>
+        <Body className="bg-gray-100 text-black">
+          <Container>
+            <Section className="bg-white borderBlack my-10 px-10 py-4 rounded-md">
+              <Heading className="leading-tight">
+                You received the following message from the contact form
+              </Heading>
+              <Text>{message}</Text>
+              <Hr />
+              <Text>The sender's email is: {senderEmail}</Text>
+            </Section>
+          </Container>
+        </Body>
+      </Tailwind>
     </Html>
   );
 }
