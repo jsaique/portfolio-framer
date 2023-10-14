@@ -7,6 +7,11 @@ import { sendEmail } from "@/actions/sendEmail";
 import SubmitBtn from "./Submit-btn";
 import toast from "react-hot-toast";
 
+type FormData = {
+  senderEmail: string;
+  message: string;
+};
+
 export default function Contact() {
   const { ref } = useSectionInView("Contact");
 
