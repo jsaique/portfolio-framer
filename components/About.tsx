@@ -20,24 +20,29 @@ export default function About() {
       <p className="mb-3">
         After graduating with a degree in{" "}
         <span className="font-medium">Computer Technology</span> and working as
-        an IT professional, I decided to pursue my passion for programming. I
-        enrolled in CS50&apos;s Introduction to Computer Science and learned{" "}
-        <span className="font-medium">C, Python, JavaScript, SQL</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
+        an IT professional&#44; I decided to pursue my passion for programming.
+        I enrolled in CS50&apos;s Introduction to Computer Science and learned{" "}
+        <span className="font-medium">
+          C&#44; Python&#44; JavaScript&#44; SQL
+        </span>
+        . <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
         feeling of finally figuring out a solution to a problem. My core stack
-        is <span className="font-medium">React, Next.js, Python and SQL</span>.
-        I am also familiar with TypeScript. I am always looking to learn new
+        is{" "}
+        <span className="font-medium">
+          React&#44; Next.js&#44; Python and SQL
+        </span>
+        . I am also familiar with TypeScript. I am always looking to learn new
         technologies. I am currently looking for a{" "}
         <span className="font-medium">full-time position</span> as a software
         engineer.
       </p>
 
       <p>
-        <span className="italic">When I&apos;m not coding</span>, I enjoy
-        playing video games, watching movies, and playing with my dog. I also
-        enjoy <span className="font-medium">learning new things</span>. I am
-        currently learning about{" "}
+        <span className="italic">When I&apos;m not coding</span>&#44; I enjoy
+        playing video games&#44; watching movies&#44; and playing with my dog. I
+        also enjoy <span className="font-medium">learning new things</span>. I
+        am currently learning about{" "}
         <span className="font-medium">Artificial Intelligence with Python</span>
         . I&apos;m also learning how to play the piano.
       </p>
