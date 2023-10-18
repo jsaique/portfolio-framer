@@ -75,6 +75,7 @@ export const projectsData = [
     description: "Comming Soon...",
     tags: ["React", "Next.js", "SQL", "Python", "Framer"],
     imageUrl: wordanalyticsImg,
+    url: "Comming Soon",
   },
   {
     title: "CS50 Final Project",
@@ -82,6 +83,7 @@ export const projectsData = [
       "This is my CS50's final project that i submitted to get my certification, it a basic email web app that can send, recieve and delete emails.",
     tags: ["Python", "Flask", "HTML", "CSS"],
     imageUrl: cs50,
+    url: "https://youtu.be/xQPW6RzI7Q8",
   },
   {
     title: "Thoughty",
@@ -89,12 +91,14 @@ export const projectsData = [
       "I created a web application called Thoughty were users can share their ideas with others.",
     tags: ["React", "Next.js", "Next Auth", "Tailwind", "Firebase"],
     imageUrl: thougthy,
+    url: "https://thoughty-app.vercel.app",
   },
   {
     title: "QR Code Generator",
     description: "I created a web application that generates a QR Code.",
     tags: ["React", "React qr code", "Next.js", "Tailwind"],
     imageUrl: qr,
+    url: "https://jassqrcodegenerator.netlify.app",
   },
   {
     title: "Portfolio V.1",
@@ -102,6 +106,7 @@ export const projectsData = [
       "I created my first portfolio to apply all the knowledge i learned from the courses i took.",
     tags: ["React", "Next.js", "Tailwind"],
     imageUrl: portfolio,
+    url: "https://johnariessaique.netlify.app/",
   },
 ] as const;
 
