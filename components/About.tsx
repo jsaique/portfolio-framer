@@ -40,9 +40,10 @@ export default function About() {
 
       <p>
         <span className="italic">When I&apos;m not coding</span>&#44; I enjoy
-        playing video games&#44; watching movies&#44; and playing with my dog. I
-        also enjoy <span className="font-medium">learning new things</span>. I
-        am currently learning about{" "}
+        playing video games&#44; watching movies&#44; and playing with my cats
+        and dog. I also enjoy{" "}
+        <span className="font-medium">learning new things</span>. I am currently
+        learning about{" "}
         <span className="font-medium">Artificial Intelligence with Python</span>
         . I&apos;m also learning how to play the piano.
       </p>
