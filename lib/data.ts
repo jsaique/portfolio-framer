@@ -70,10 +70,17 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  // {
+  //   title: "Mutual AI (MAI)",
+  //   description: "Comming Soon...",
+  //   tags: ["React", "Next.js", "SQL", "Python", "Framer"],
+  //   imageUrl: wordanalyticsImg,
+  //   url: "Comming Soon",
+  // },
   {
-    title: "Mutual AI (MAI)",
+    title: "e-Commerce Website",
     description: "Comming Soon...",
-    tags: ["React", "Next.js", "SQL", "Python", "Framer"],
+    tags: ["React", "Next.js", "Mongodb", "Tailwind"],
     imageUrl: wordanalyticsImg,
     url: "Comming Soon",
   },
@@ -126,4 +133,5 @@ export const skillsData = [
   "Github",
   "Tailwind",
   "Framer Motion",
+  "MongoDB",
 ] as const;
