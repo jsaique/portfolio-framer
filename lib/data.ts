@@ -6,7 +6,8 @@ import thougthy from "@/public/project1.png";
 import qr from "@/public/project2.png";
 import portfolio from "@/public/project3.png";
 import cs50 from "@/public/project4.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import front from "@/public/front.png";
+import back from "@/public/back.png";
 
 export const links = [
   {
@@ -70,19 +71,20 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
-  // {
-  //   title: "Mutual AI (MAI)",
-  //   description: "Comming Soon...",
-  //   tags: ["React", "Next.js", "SQL", "Python", "Framer"],
-  //   imageUrl: wordanalyticsImg,
-  //   url: "Comming Soon",
-  // },
   {
-    title: "e-Commerce Website",
-    description: "Comming Soon...",
+    title: "e-Commerce Website Front-End",
+    description: "eShopping is a great place to order your new products",
+    tags: ["React", "Next.js", "Mongodb", "Styled-Components"],
+    imageUrl: front,
+    url: "https://ecomm-front-psi.vercel.app",
+  },
+  {
+    title: "e-Commerce Admin",
+    description:
+      "Admin page for eShopping website, here you can add, edit or delete a product information (Need admin access)",
     tags: ["React", "Next.js", "Mongodb", "Tailwind"],
-    imageUrl: wordanalyticsImg,
-    url: "Comming Soon",
+    imageUrl: back,
+    url: "https://ecomm-admin-zeta.vercel.app",
   },
   {
     title: "CS50 Final Project",
