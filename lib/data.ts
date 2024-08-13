@@ -75,7 +75,7 @@ export const projectsData = [
   {
     title: "TechHub",
     description: "Simulates a real life ecommerce website",
-    tags: ["React", "Node.js"],
+    tags: ["React", "Node.js", "TypeScript"],
     imageUrl: techhub,
     url: "https://tech-hub-backend-private-front.vercel.app",
   },
