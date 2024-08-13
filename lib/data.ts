@@ -8,6 +8,7 @@ import portfolio from "@/public/project3.png";
 import cs50 from "@/public/project4.png";
 import front from "@/public/front.png";
 import back from "@/public/back.png";
+import techhub from "@/public/techhub.png";
 
 export const links = [
   {
@@ -71,6 +72,13 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "TechHub",
+    description: "Simulates a real life ecommerce website",
+    tags: ["React", "Node.js"],
+    imageUrl: techhub,
+    url: "https://tech-hub-backend-private-front.vercel.app",
+  },
   {
     title: "e-Commerce Website Front-End",
     description: "eShopping is a great place to order your new products",
