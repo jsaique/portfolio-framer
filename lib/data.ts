@@ -79,21 +79,21 @@ export const projectsData = [
     imageUrl: techhub,
     url: "https://tech-hub-backend-private-front.vercel.app",
   },
-  {
-    title: "e-Commerce Website Front-End",
-    description: "eShopping is a great place to order your new products",
-    tags: ["React", "Next.js", "Mongodb", "Styled-Components"],
-    imageUrl: front,
-    url: "https://ecomm-front-psi.vercel.app",
-  },
-  {
-    title: "e-Commerce Admin",
-    description:
-      "Admin page for eShopping website, here you can add, edit or delete a product information (Need admin access)",
-    tags: ["React", "Next.js", "Mongodb", "Tailwind"],
-    imageUrl: back,
-    url: "https://ecomm-admin-zeta.vercel.app",
-  },
+  // {
+  //   title: "e-Commerce Website Front-End",
+  //   description: "eShopping is a great place to order your new products",
+  //   tags: ["React", "Next.js", "Mongodb", "Styled-Components"],
+  //   imageUrl: front,
+  //   url: "https://ecomm-front-psi.vercel.app",
+  // },
+  // {
+  //   title: "e-Commerce Admin",
+  //   description:
+  //     "Admin page for eShopping website, here you can add, edit or delete a product information (Need admin access)",
+  //   tags: ["React", "Next.js", "Mongodb", "Tailwind"],
+  //   imageUrl: back,
+  //   url: "https://ecomm-admin-zeta.vercel.app",
+  // },
   {
     title: "CS50 Final Project",
     description:
